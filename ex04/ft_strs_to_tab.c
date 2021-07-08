@@ -48,7 +48,7 @@ struct s_stock_str	*ft_strs_to_tab(int ac, char **av)
 	while (i < ac && av[i])
 	{
 		l = 0;
-		while (av[l])
+		while (av[i][l])
 			l++;
 		tab[i].size = l;
 		tab[i].str = av[i];
@@ -61,7 +61,7 @@ struct s_stock_str	*ft_strs_to_tab(int ac, char **av)
 	return (tab);
 }
 
-// int	main(int argc, char **argv)
-// {
-// 	ft_strs_to_tab(argc, argv);
-// }
+int	main(int argc, char **argv)
+{
+	ft_strs_to_tab(argc, argv);
+}
