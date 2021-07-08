@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include <unistd.h>
-// #include "ft_stock_str.h"
+#include "ft_stock_str.h"
 
 void	ft_putnbr(int n)
 {
