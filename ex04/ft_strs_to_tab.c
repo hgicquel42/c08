@@ -61,7 +61,7 @@ struct s_stock_str	*ft_strs_to_tab(int ac, char **av)
 	return (tab);
 }
 
-int	main(int argc, char **argv)
-{
-	ft_strs_to_tab(argc, argv);
-}
+// int	main(int argc, char **argv)
+// {
+// 	ft_strs_to_tab(argc, argv);
+// }
